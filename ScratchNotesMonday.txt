@@ -1,0 +1,27 @@
+scratchMonday:
+
+DOM = browser creates a representation of the html - that is to be displayed
+- tree structure of elements that leads to a display
+
+What can we manipulate with JS in DOM?
+- EVERYTHING like attributes, elements,  css addnew, remove, animate...
+
+JQuery:
+
+1. Other people's code (like what for css: Bootstrap) - makes life easier
+2. JQuery => "smaller" our code than just Javascript
+3. document.getElementById("drink-option") => $("#drink-options")
+
+
+WHAT WE LEARNT?
+In JQuery
+
+1. FIND ELEMENT - $("");
+2. CREATE ELEMENT - $("<p></p>");
+3. CHange innerhtml of an ELEMENT - el.html("ALL the inner html");
+4. change attribute of an element - el.attr("name of attr","value")
+5. append/prepend a child element - append(childEL) or prepend(childEl)
+6. event listener: el.on("name of event", function to run when the event happens);
+el.on("click", function(){
+    alert("I clicked");
+});
