@@ -1,0 +1,39 @@
+```Scratch Wednesday
+
+Q1: Sandra's Q about multiple loops on-events
+
+PseudoCode
+1. DO the layout
+2. Set up "on-click" event listener - do something
+ on various buttons
+3. Find the image element
+4. <img> => changing css attributes 
+5. 4 and 2 need to be linked
+
+
+INTERMEDIATE STEPS:
+- use a for loop to add the bottom buttons 
+(5-10 mins)
+- add any button at all to the fridge on clicking any button
+(5-10 mins)
+- Make sure the button reflects the correct letter
+(10 mins)
+
+NEW FUNCTIONS today:
+1. $(this)
+2. attr("data-crystalvalue") - 2 ways used
+3. addClass()
+4. empty()
+5. text()
+
+6. "data-XXX" attribute where XXX is anything we want
+
+<button class="btn" data-letter="M" data-loren="champion2" data-instr="boring">
+
+7. object.func() : inside the func, first level knows "this" as object; all further levels inside the value of "this" becomes "window" or "global" object
+```
+
+
+new messages
+
+----- Today August 10th, 2017 -----
