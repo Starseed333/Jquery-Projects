@@ -18,14 +18,21 @@
   <!-- JAVASCRIPT  -->
   <!-- ========================================= -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+
   <script type="text/javascript">
   var targetNumber = 53;
+  
+
   $("#number-to-guess").text(targetNumber);
   var counter = 0;
   // Now for the hard part. Creating multiple crystals each with their own unique number value.
   // We begin by expanding our array to include four options.
   var numberOptions = [10, 5, 3, 7];
   // Next we create a for loop to create crystals for every numberOption.
+  
+
+
   for (var i = 0; i < numberOptions.length; i++) {
     // For each iteration, we will create an imageCrystal
     var imageCrystal = $("<img>");
@@ -40,6 +47,13 @@
     // Lastly, each crystal image (with all it classes and attributes) will get added to the page.
     $("#crystals").append(imageCrystal);
   }
+  
+
+
+
+
+
+
   // This time, our click event applies to every single crystal on the page. Not just one.
   $(".crystal-image").on("click", function() {
     // Determining the crystal's value requires us to extract the value from the data attribute.
